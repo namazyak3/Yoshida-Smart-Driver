@@ -54,7 +54,7 @@ def generate_launch_description():
         # 推論
         Node(
             package="ysd_machine_learning",
-            executable="ysd_torch_inference_node",
+            executable="ysd_torch_inference_tt02_node",
             name="inference",
             parameters=[config],
             output="screen"

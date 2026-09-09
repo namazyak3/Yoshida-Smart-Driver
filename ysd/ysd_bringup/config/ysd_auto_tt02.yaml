@@ -7,7 +7,7 @@
         control_manual: "/control/manual"
         control_auto: "/control/auto"
         control_select: "/control/select"
-        control_pwm: "/control_pwm"
+        control_pwm: "/control/pwm"
       service:
         set_control_mode: "/set/control_mode"
 

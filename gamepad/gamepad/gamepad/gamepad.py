@@ -19,7 +19,7 @@ class State(TypedDict):
     axis: defaultdict[str, float]
     button: defaultdict[str, bool]
 
-# ゲームパッドごとのイベントコード・キーマップをここに追加する.
+# !!!!! ゲームパッドごとのイベントコード・キーマップをここに追加する !!!!!
 KEY_MAPS: dict[str, Maps] = {
     "dualsense": Maps(
         axis = {

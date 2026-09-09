@@ -24,7 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            "ysd_torch_inference_node = ysd_machine_learning.ysd_torch_inference_node:main"
+            "ysd_torch_inference_tt02_node = ysd_machine_learning.ysd_torch_inference_tt02_node:main"
         ],
     },
 )

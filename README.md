@@ -63,6 +63,7 @@ graph TD;
     MGR -->|/control/select| MAP["ysd_pwm_mapper_tt02_node"]
 
     YGP -->|/control/manual| REC["ysd_record_tt02_node"]
+    CAM -->|/comera/image_raw| REC
     MODE -->|/control/mode| REC
 
     MAP -->|/control/pwm| PWMDRV["ysd_(pca9685)_driver_(tt02)_node"]
